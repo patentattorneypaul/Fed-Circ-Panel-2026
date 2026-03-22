@@ -338,29 +338,217 @@ Before forum shopping begins, a threshold question must be answered: **is the ch
 
 ### V.B. Substantive law: What legal rules will the judge apply?
 
-This dimension is the most underappreciated by U.S. practitioners. The **outcome of the same infringement case can differ depending on forum**, because the forums apply distinct bodies of law.
+For U.S. practitioners accustomed to a single federal patent statute applied uniformly across all federal district courts, the substantive-law dimension of forum choice in Europe carries a consequence that is easy to overlook: the UPC and national courts apply distinct bodies of law to the same patent, meaning the outcome of the same infringement claim — on the same claims, against the same accused product — can differ depending solely on which forum hears the case.
 
-**National courts apply national patent law.** A German court hearing a patent infringement case applies **German patent law** (Patentgesetz, PatG), supplemented by German civil procedure (Zivilprozessordnung, ZPO) and German courts' own doctrine. France applies **French intellectual property law** (Code de la propriété intellectuelle, CPI). These national regimes, while all derived from the EPC as a common grant standard, have **developed independent jurisprudence** on:
+This is not a technical procedural point. It is a substantive outcome-determinative reality. A patent proprietor who wins an infringement judgment in the Munich Landgericht applying German *Patentgesetz* might lose the same case, on identical facts, before a UPC local division in Munich applying UPCA Article 34 harmonized law — because the doctrines of claim interpretation, the scope of the equivalents analysis, the bifurcation structure, and the injunction standard all differ. Understanding these differences, country by country, is therefore part of the core pre-litigation analysis.
 
-- **Claim interpretation / scope of protection** — German courts historically applied a "purposive construction" approach (functional equivalence favored); French courts tended toward a somewhat stricter literalist reading; UK courts (pre-Brexit) developed a distinct "Improver"/"Protocol Questions" approach for equivalents.
-- **Doctrine of equivalents** — German courts recognized equivalents broadly under the "triple test" (same result, same way, obvious to the skilled person); French courts applied a somewhat analogous but independently developed doctrine; UK courts applied the *Actavis v. Eli Lilly* (2017) reformulation.
-- **Injunctive relief culture** — German courts were famous for granting **injunctions as near-automatic** upon a finding of infringement, with limited equitable balancing; French courts granted injunctions readily too; Dutch courts were historically more proportionality-conscious.
-- **Proportionality of injunctions** — pre-UPC, the *eBay* factor-balancing familiar to U.S. practitioners was absent from most continental European national courts, where injunctions were largely automatic.<br>
+#### The UPC's harmonized baseline
 
-**The UPC applies harmonized, EPC-based law under Article 34 UPCA.** As discussed in Section IV above, the UPC does **not** apply the national law of the country where infringement occurred. It applies the **UPCA itself** and the **EPC's substantive framework** — meaning a single harmonized legal standard for all 18 participating states.[^31]
+The UPC does not apply the national law of any particular country. Under **UPCA Article 34**, the UPC applies the **law applicable to European patents under the EPC and the UPCA itself** — a harmonized body of law that is the same in Munich, Paris, Helsinki, and Düsseldorf regardless of where infringement occurred.[^31] This is the starting point. Every comparison below measures national court law against that harmonized UPC baseline.
 
-**Key divergences between UPC and leading national courts:**
+The harmonized UPC standard draws on:
+- **EPC Articles 52–76** for patentability and validity (novelty, inventive step, sufficiency, industrial applicability).
+- **UPCA Articles 25–30** for infringement (direct, indirect, prior use, experimental use, regulatory exemptions).
+- **UPCA Article 63** for injunctions and proportionality.
+- **UPC Rules of Procedure** for procedure, evidence, and claim construction standards.
+- **EPO Boards of Appeal case law** as persuasive authority on EPC-derived questions (not formally binding, but routinely consulted).
 
-| Legal dimension | German national court | French national court | UPC (harmonized) |
-| --- | --- | --- | --- |
-| **Claim interpretation** | Purposive; broad functional reading of claims | Mixed; literalist to moderately purposive | EPC-based; specification-grounded; evolving case law |
-| **Doctrine of equivalents** | Broad "triple test" (same function, same way, same result); well-developed | French equivalent doctrine (résultat identique approach) | Not yet fully codified in UPC Rules; harmonized standard expected; early decisions suggest more restrained equivalents |
-| **Injunction culture** | Near-automatic on liability finding | Near-automatic | Proportionality analysis required under UPCA art. 63; early UPC decisions show willingness to apply proportionality (distinguishing from purely automatic German model) |
-| **Bifurcation** | **Classic bifurcation** — infringement tried separately from validity; validity referred to Federal Patent Court | No bifurcation; infringement and validity heard together | **No bifurcation** — UPC hears infringement and validity together in same proceeding |
-| **File history estoppel** | Used, but less developed than U.S. practice | Limited use | Expected to play central role; multi-state prosecution record read holistically |
-| **Inventive step standard** | Problem-solution approach (EPO-harmonized) | Problem-solution approach (EPO-harmonized) | Problem-solution approach (EPC Articles 52, 56); consistent with EPO Boards of Appeal |
+#### Germany: The broadest equivalents doctrine and the injunction gap
 
-**The bifurcation difference is outcome-determinative in many cases.** The German system's classical bifurcation created a phenomenon known as the **"injunction gap"**: a patent proprietor could obtain a German infringement judgment (and therefore an injunction) **before** the Federal Patent Court (*Bundespatentgericht*, BPatG) ruled on the validity challenge. This gap — sometimes 12–24+ months — allowed a dominant patent holder to extract licensing terms or exclude a competitor from the German market based on an infringement finding that a later BPatG ruling might ultimately reverse. The UPC eliminates this advantage entirely: validity and infringement are always heard together, meaning that a credible invalidity defense **stays the injunction** or significantly tempers the court's willingness to grant one before the full merits.[^32]
+**Applicable law:** *Patentgesetz* (PatG); ZPO (civil procedure); *Bundespatentgericht* (BPatG) for validity; *Bundesgerichtshof* (BGH, Federal Court of Justice) on appeal for both infringement and validity.
+
+**Claim interpretation.** German courts apply a **purposive (teleological) reading** grounded in the patent's technical contribution. The claim is read in light of the specification and drawings, but the scope of protection is not confined to the literal wording. A claim term is given its broadest technically sensible interpretation consistent with the specification, including functional equivalents that serve the same technical purpose.
+
+**Doctrine of equivalents — the "triple test."** Germany has the **most well-developed and plaintiff-friendly equivalents doctrine** in Europe. Under the *Schneidrad*/*Cutting Wheel* jurisprudence of the BGH (developed over decades, most recently restated in *BGH X ZR 29/15*, *Pemetrexed*, 2020), infringement by equivalence requires three affirmative showings:
+1. The variant achieves the same **technical result** as the claimed element;
+2. The variant works in the **same way** (solves the problem through the same technical principle);
+3. A **person skilled in the art** would have recognized the equivalence at the date of infringement without requiring inventive step.
+
+This test is generous to patent proprietors. The third prong requires only that equivalence be "recognizable" to the skilled person — it does not require that it was specifically known or commercially obvious. The result is that German courts have historically found infringement by equivalence in cases where UK or French courts would have found only literal non-infringement.
+
+**Prosecution history estoppel.** German equivalents analysis gives less weight to prosecution history than U.S. practice. A German court will consider whether claim amendments narrowed the scope, but does not apply a hard estoppel rule of the type that *Festo Corp. v. Shoketsu Kinzoku Kogyo Kabushiki Co.* (Fed. Cir. 2003) established in U.S. law. An applicant who narrowed a claim to overcome a prior art rejection does not automatically surrender the equivalent variants in Germany the way they might in the U.S.
+
+**Bifurcation — the injunction gap.** Germany uniquely **bifurcates infringement from validity**. Infringement is tried in the regional civil courts (Landgerichte — Munich I, Düsseldorf, Mannheim, Hamburg); validity is challenged in the Federal Patent Court (BPatG, sitting in Düsseldorf or Munich). The infringement court is not bound by the validity track — it may (but rarely does) **stay** infringement proceedings pending the BPatG's validity decision. In the great majority of cases, the Landgericht issues its infringement judgment and injunction **before** the BPatG decides validity — creating the notorious **injunction gap** of 12–36 months during which an injunction stands against a product that a later court may declare not infringing (because the patent is invalid).
+
+**Injunctions.** Post the **2021 § 139 PatG reform**, injunctions are no longer automatically granted in Germany — courts must now consider whether enforcement would be "disproportionate." In practice, the proportionality defense has succeeded in only a small number of cases (primarily complex supply-chain scenarios involving standard-essential patents or where the infringing component is a minor element in a large assembly). For the typical infringement case, a German injunction remains near-automatic on a finding of liability.
+
+**Experimental use and prior use.** PatG **§ 11** provides a broad experimental use exemption covering acts "carried out for experimental purposes relating to the subject matter of the patented invention." German courts have interpreted this broadly — a company testing a patented compound to determine its properties, even with commercial intent, may qualify. PatG **§ 12** provides a prior use right for good-faith prior users before the filing date; such users may continue use at the existing scale but cannot expand.
+
+#### France: Moderate equivalents, no bifurcation, the saisie power
+
+**Applicable law:** *Code de la propriété intellectuelle* (CPI), arts. L. 611-1 *et seq.*; *Code de procédure civile* (CPC); *Tribunal judiciaire de Paris* (specialized chamber, Pôle 5, chambre 2) for patent matters at first instance; *Cour d'appel de Paris* on first appeal; *Cour de cassation* (cassation only).
+
+**Claim interpretation.** French courts apply a **moderate purposive reading** — claims are interpreted in light of the specification and drawings, but French courts have historically been somewhat more literal than German courts, particularly for claims with clear technical language. The French doctrine is to give claims their "broadest plausible meaning" (sens le plus large plausible) consistent with the description, but without the strong functional extension that German purposive construction allows.
+
+**Doctrine of equivalents.** France recognizes a doctrine of equivalents (*contrefaçon par équivalent*) under **CPI art. L. 613-3** as supplemented by case law. The French approach has been described as the *résultat identique* (identical result) test — courts ask whether the accused variant achieves the same result as the claimed element, even through a different means, such that the variant falls within the "spirit" of the claim. This is doctrinally similar to the German triple test but has historically been applied somewhat more restrictively, particularly where prosecution history shows the applicant made deliberate choices about claim language. French courts give **more weight to prosecution history** than German courts in limiting equivalents scope.
+
+**No bifurcation.** Infringement and validity are heard in the **same proceeding** before the *Tribunal judiciaire*. There is no injection gap in France. A defendant who raises invalidity forces a unified merits determination, which generally results in a **more balanced outcome** for defendants compared to the German bifurcated model. French proceedings, however, take considerably longer — 18–36 months to first-instance decision.
+
+**Injunctions and astreinte.** French courts grant provisional and permanent injunctions under **CPI arts. L. 615-3 and L. 615-7**. A distinctive and powerful feature of French practice is the **astreinte** — a per-day or per-unit monetary penalty imposed on the defendant for each day or unit of non-compliance with an injunction order. Astreintes are set by the court and can be enormous in value (tens of thousands of euros per day), making compliance essentially mandatory once a final order issues. For certain complex technology cases, French courts have also been willing to award **damages in lieu of injunction**, particularly where the public interest or supply chain complexity weighs against exclusion.
+
+**Experimental use and prior use.** France provides experimental use exemptions under **CPI art. L. 613-5** similar to the German model but interpreted somewhat more narrowly in commercial contexts. Prior use rights exist under **CPI art. L. 613-6** for good-faith prior users.
+
+#### Netherlands: Proportionality-conscious, English-language capable, cross-border history
+
+**Applicable law:** *Rijksoctrooiwet 1995* (Row 1995, Dutch Patent Act); *Wetboek van Burgerlijke Rechtsvordering* (civil procedure); *Rechtbank Den Haag* (The Hague District Court, specialized IP chamber) for patent matters; *Gerechtshof Den Haag* on appeal.
+
+**Claim interpretation.** Dutch courts apply a **purposive construction** that historically tracked the approach of the Protocol on Article 69 EPC — claims are interpreted to give "due account" to equivalents while not relying "only on the strict, literal meaning of the wording." The Dutch approach has been influenced by both German and UK jurisprudence, producing a moderate middle position.
+
+**Doctrine of equivalents.** The Netherlands applies an equivalents doctrine similar in structure to Germany's, examining whether the variant achieves the same result, uses the same or similar principle, and would have been recognized as equivalent. However, the Dutch courts have shown **more willingness to decline equivalents** where prosecution history or claim drafting choices signal that the applicant deliberately chose narrower language. Dutch courts are also notably willing to consider arguments about **prosecution disclaimer** — a feature the courts have applied with more rigor than German courts historically have.
+
+**Proportionality and injunctions.** Dutch courts are historically **more proportionality-conscious** than German courts. Even before the UPC era, Dutch courts asked whether an injunction was proportionate to the harm at stake, applied a more structured balancing analysis, and were more willing than German courts to deny injunctive relief in complex supply chain contexts or where the public interest weighed against exclusion. The Netherlands was an early adopter of the kind of proportionality analysis that the UPC now requires under UPCA Article 63.
+
+**Cross-border reach and the "spider in the web" legacy.** Pre-UPC, Dutch courts developed the "spider in the web" doctrine — a theory of jurisdiction that allowed the Hague court to assert authority over foreign (non-Dutch) defendants if a Dutch group company was the "spider" at the center of a coordinated infringing strategy. This doctrine enabled pan-European injunctions from the Hague in some cases. The European Court of Justice curtailed this doctrine, and the UPC has substantially displaced it for UPC-member-state defendants — but the Hague court retains relevance for cases involving non-UPC defendants, UK-nexus cases, and U.S. companies with Dutch subsidiaries.
+
+**English-language proceedings.** Dutch courts have a strong tradition of conducting patent proceedings in English for international cases — a significant practical advantage for U.S. counsel.
+
+#### Italy: Active enforcement forum, unified proceedings, Milan specialization
+
+**Applicable law:** *Codice della Proprietà Industriale* (CPI, Legislative Decree 30/2005); *Codice di Procedura Civile* (CPC); *Tribunale specializzato in materia di impresa* (specialized enterprise courts, particularly Milan and Rome) for patent matters; *Corte d'Appello* on appeal.
+
+**Claim interpretation.** Italian courts apply **purposive construction** consistent with Article 69 EPC Protocol, reading claims in light of the description and drawings without anchoring to strict literal text. Italian courts have shown willingness to apply an equivalents analysis, though the body of published Italian patent jurisprudence is less extensively translated and studied in English-language practice than German, French, or Dutch decisions.
+
+**No bifurcation.** Like France, Italian courts **hear infringement and validity together** in unified proceedings. This eliminates the injunction gap and gives defendants a meaningful opportunity to press invalidity concurrently with the infringement defense.
+
+**Injunctions.** Italian courts grant preliminary injunctions (*sequestro* and *inibitoria*) upon a showing of *fumus boni iuris* (plausible right) and *periculum in mora* (urgency). Italian practice has a distinctive **customs seizure** mechanism that allows ex parte seizure of infringing goods at Italian borders — useful for pharma and consumer goods cases.
+
+**Italy as a UPC participant.** Italy is a **participating UPC member state**, meaning that Italian patent proprietors (and defendants) are subject to UPC jurisdiction for non-opted-out classic European patents and Unitary Patents. The Milan local division of the UPC is available. For non-opted-out patents, a proprietor must decide whether to sue in the Italian *Tribunale specializzato* (national law, no injunction gap, Italian proceedings) or the Milan UPC local division (harmonized UPC law, EU-wide scope, UPC procedure). This choice carries all the forum-selection consequences discussed throughout this section.
+
+#### Sweden and the Nordic states: UPC's English-language center of gravity
+
+**Applicable law (Sweden):** *Patentlag* (1967:837) (Swedish Patent Act); *Patent- och marknadsdomstolen* (Patent and Market Court, Stockholm) for patent matters; *Patent- och marknadsöverdomstolen* (Court of Appeal) on appeal.
+
+**Claim interpretation.** Swedish courts apply purposive EPC-consistent construction. Swedish patent jurisprudence is less voluminous than Germany's or the UK's, but Swedish courts have historically been pragmatic and technically competent. Sweden is notably **pro-patentee** in granting preliminary injunctions relative to some other Nordic states.
+
+**The Nordic-Baltic Regional Division.** Sweden, Estonia, Latvia, and Lithuania established the **Nordic-Baltic Regional Division** of the UPC, headquartered in Stockholm. This division is emerging as a significant UPC venue for technology companies with Nordic EU exposure, and offers **English-language proceedings** by default — a strong pull factor for U.S. companies seeking UPC enforcement without the translation overhead of Munich or Paris. Early practitioners report that the Nordic-Baltic division has been efficient and technically sophisticated.
+
+**Finland.** Finland's **Helsinki local division** is a separately constituted UPC local division (not part of the Nordic-Baltic regional division) and has attracted technology and pharmaceutical cases. Finland applies national patent law (*Patenttilaki 550/1967*) in its national courts, and the Helsinki local division applies harmonized UPC law. The Helsinki division has received attention for its willingness to conduct proceedings entirely in English and for its technically qualified bench.
+
+#### Spain: A critical exclusion from the UP/UPC system
+
+**Spain is not a participating UPC member state and is not part of the Unitary Patent system.** This is among the most strategically important geographic facts for any portfolio covering the Iberian market. Spain challenged the Unitary Patent regulations before the Court of Justice of the EU and ultimately declined to participate in the enhanced cooperation framework that created the UP system. The consequence is direct and unavoidable:
+
+- A **Unitary Patent** provides **no protection in Spain**. A proprietor holding only a UP has no enforceable right against infringers in Spain.
+- A **classic European patent** validated in Spain (as a national Spanish patent, under Spanish law) provides protection in Spain — and that Spanish national patent bundle is **entirely outside UPC jurisdiction**.
+- Enforcement in Spain proceeds in **Spanish national courts** (*Juzgados de lo Mercantil* — specialized commercial courts) applying **Spanish patent law** (*Ley de Patentes 24/2015*).
+- Spain applies a **doctrine of equivalents** under its national law and conducts unified (non-bifurcated) infringement/validity proceedings.
+
+For any company with significant Spanish market exposure — pharmaceutical, automotive, consumer goods — **a UP alone is insufficient**. The correct European portfolio strategy must separately validate a classic EP in Spain and manage Spanish national proceedings independently. This is one of the most common and consequential omissions in simplified "just get a Unitary Patent" portfolio strategies.
+
+Poland similarly has not joined the UPC as of this writing (March 2026), though its accession remains under discussion. Polish validation of a classic EP, like Spanish validation, provides nationally-enforceable rights entirely outside the UPC framework.
+
+#### United Kingdom: Diverged law, superior disclosure, post-Brexit isolation
+
+**Applicable law:** *Patents Act 1977* (as amended); *Civil Procedure Rules* (CPR), Practice Directions 49I and 63; *Patents Court* (High Court, Chancery Division) and *Intellectual Property Enterprise Court* (IPEC) for patent matters; *Court of Appeal* and *Supreme Court* on further appeals.
+
+**The post-Brexit divergence.** The UK left the EU on January 1, 2021, and has not joined the UPC. UK courts **apply UK patent law** — which, while derived from the EPC and still largely consistent with EPC principles on patentability, has **developed independently since Brexit** on infringement doctrine, equivalents, and procedure. The most significant doctrinal development post-Brexit is the solidification of the *Actavis* equivalents framework.
+
+**Doctrine of equivalents — the *Actavis* three questions.** The UK Supreme Court's 2017 decision in *Actavis UK Ltd v. Eli Lilly & Co* [2017] UKSC 48 substantially reformed UK equivalents law, replacing the prior "Improver" / "Protocol Questions" framework. Under *Actavis*, UK courts now ask three questions:
+1. Does the variant achieve substantially the **same result** in substantially the **same way** as the invention?
+2. Would it have been **obvious** to a skilled person at the priority date that the variant achieves substantially the same result in the same way?
+3. Would a skilled person have understood from the specification that **strict compliance with the literal meaning** was an essential requirement — i.e., would the patentee have intended the claim to extend to the variant?
+
+This framework is more expansive than the old Improver questions but is still structured differently from both German law (less defendant-hostile on prosecution history) and U.S. law (no hard *Festo* estoppel rule, but question 3 creates a purposive limit on extension). UK courts have applied *Actavis* to grant infringement findings in pharmaceutical and chemical cases where, under the old UK framework, they would have found only literal non-infringement.
+
+**No bifurcation; full validity raised in infringement proceedings.** UK courts hear infringement and validity in the same proceeding — no injunction gap. A defendant who files a strong invalidity counterclaim can slow or prevent preliminary injunctive relief. UK courts in complex pharma cases have sometimes heard validity first (a "split trial" ordered by the court) — but this is a court-managed decision, not a structural rule.
+
+**Claim interpretation — Kirin-Amgen purposive construction.** The UK applies purposive construction per *Kirin-Amgen Inc v. Transkaryotic Therapies* [2004] UKHL 46 (Lord Hoffmann): the question is what the person skilled in the art would have understood the patentee to have meant by the language used. This is not literal construction, but it is less expansive than German purposive construction. Post-*Actavis*, the claim interpretation question and the equivalents question are now analytically separated in UK law — a distinction that does not hold in the same way in German law.
+
+#### Key substantive law comparison across all forums
+
+| Legal dimension | Germany | France | Netherlands | Italy | Sweden / Nordic | UK (national) | UPC (harmonized) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **Claim interpretation** | Purposive; broadest technically sensible reading | Moderately purposive; somewhat more literal | Purposive; moderate (between DE and UK) | Purposive, Art. 69 Protocol | Purposive, EPC-consistent | Purposive (*Kirin-Amgen*); separated from equivalents analysis | EPC-based; specification-grounded; evolving |
+| **Doctrine of equivalents** | Broad "triple test" (BGH, *Pemetrexed*); prosecution history given limited weight | *Résultat identique*; more weight to prosecution history than Germany | Similar to triple test; stronger prosecution disclaimer doctrine | Recognized; less-developed published case law | Applied; less developed than Germany | *Actavis* three-question framework; structured prosecution history analysis | Not yet fully codified; early decisions suggest more restrained than Germany; harmonization ongoing |
+| **Prosecution history estoppel** | Less strict than U.S.; no hard *Festo* equivalent | Moderate; prosecution history limits equivalents more than in Germany | Stronger prosecution disclaimer than Germany | Recognized | Recognized | Structured analysis under *Actavis* question 3 | Expected to play significant role; multi-state EPO record read holistically |
+| **Bifurcation** | Yes — infringement (Landgericht) split from validity (BPatG); injunction gap of 12–36 months common | No — unified | No — unified | No — unified | No — unified | No — unified | No — UPC always unified; injunction gap eliminated |
+| **Injunction standard** | Near-automatic post-infringement finding; proportionality defense (§ 139 PatG, 2021) applied narrowly | Near-automatic; *astreinte* penalty compounds daily | More proportionality-conscious historically; balancing applied | Available; *inibitoria* with urgency showing | Available; Sweden historically pro-patentee on PI | Equitable discretion; courts willing to consider proportionality; not automatic | UPCA art. 63 proportionality required; early UPC decisions applying balancing analysis |
+| **Experimental use exemption** | Broad (§ 11 PatG); commercial testing for characterization purposes may qualify | Moderate (CPI art. L. 613-5) | Broad | Recognized | Recognized | Narrow (*Monsanto v. Cargill*, narrow "for the invention" requirement) | Harmonized (UPCA art. 27(b)); similar to most national regimes |
+| **Prior use defense** | § 12 PatG; good-faith prior use; scale-limited continuation | CPI art. L. 613-6 | Recognized | Recognized | Recognized | Patents Act 1977, s. 64; similar structure to Germany | UPCA art. 28; harmonized prior use right |
+| **Indirect infringement** | § 10 PatG; supplying means for infringement with knowledge of their suitability | CPI art. L. 613-4 | Recognized | Recognized | Recognized | Patents Act 1977, s. 60(2) | UPCA art. 26; harmonized contributory infringement |
+| **Part of UPC system?** | Yes (UPC local divisions in Munich, Düsseldorf, Mannheim, Hamburg) | Yes (Paris central division and local division) | Yes (The Hague local division) | Yes (Milan local division) | Yes (Nordic-Baltic Regional Div.; Helsinki local div.) | **No (post-Brexit; national courts only)** | — |
+| **Spain / Poland?** | — | — | — | — | — | — | **Spain and Poland NOT in UPC/UP system; separate national enforcement required** |
+
+#### Illustrative examples: Where the forum choice changes the outcome
+
+The differences above are not merely academic. The following hypothetical illustrations — drawn from the categories of cases that appear most frequently in UPC and national practice — show how forum choice can be outcome-determinative on substantive legal grounds.
+
+**Example 1: Doctrine of equivalents — a mechanical variant claim (pharmaceutical formulation context)**
+
+*Patent claim:* "A tablet formulation comprising a hydroxypropyl methylcellulose (HPMC) matrix for controlled release of compound X."
+
+*Accused product:* Uses an ethylcellulose matrix — a different release-control polymer achieving the same bioavailability profile.
+
+- **Germany (national):** Under the *Pemetrexed*-era triple test, a German court applies the three BGH prongs: (1) same result — controlled release achieved: *yes*; (2) same way — matrix polymer controls diffusion, same mechanism class: *probably yes*; (3) skilled person recognizes equivalence: most likely *yes* — ethylcellulose is an obvious matrix polymer alternative known in the field. **German result: likely infringement by equivalence.** The prosecution history, unless specifically addressing this substitution, would not block the finding.
+
+- **France (national):** Applies *résultat identique* — achieves same controlled release: *yes*. But French court examines prosecution history more carefully. If the EPO office action cited prior art using ethylcellulose and the applicant chose HPMC specifically, French court may find prosecution disclaimer. **French result: uncertain; outcome turns on prosecution record.** If prosecution record is clean, likely infringement; if it shows deliberate selection of HPMC, likely no infringement by equivalence.
+
+- **UK (national):** Under *Actavis*, question 1 (same result, same way): *yes*. Question 2 (obvious to skilled person at priority date): *probably yes*. Question 3 (did patentee mean strict compliance essential?): this is the key — if the claim uses the specific term HPMC without broader genus language, a UK court may hold that the patentee signaled intent to limit to HPMC. **UK result: uncertain; likely a closer question than Germany.**
+
+- **UPC (harmonized):** Early UPC decisions have not yet established a definitive equivalents standard at the same level of doctrinal detail as the German BGH. The UPC is expected to take a specification-grounded approach resisting extensions beyond what the specification teaches as the invention's technical contribution. **UPC result: likely more restrained than Germany; whether ethylcellulose is within scope depends on what the specification describes as the technical contribution of the HPMC selection.** If the specification frames HPMC as merely one example, broader coverage likely; if it frames HPMC selection as the inventive advance, narrower.
+
+*Practical implication:* If the patent proprietor has a strong set of facts on the triple test but a problematic prosecution history, **Germany offers the best chance of an infringement finding**; the **UPC offers a less predictable but plausible outcome**; **France and the UK** are harder asks. The accused infringer, conversely, wants to be in France or the UPC — preferably avoiding Germany.
+
+---
+
+**Example 2: Bifurcation and the injunction gap — pharmaceutical generic launch**
+
+*Scenario:* Pharma Co. holds European Patent EP 1 234 567 covering a drug compound. Generic Co. launches a generic. Pharma Co. files for infringement. Generic Co. believes the patent is invalid over two prior art references.
+
+- **Germany (national):** Pharma Co. files in Munich Landgericht. Generic Co. files validity challenge at BPatG. Munich Landgericht hears infringement over 12 months. **BPatG validity track will take 24–36 months more.** Munich court finds infringement, issues injunction. Generic Co. is **excluded from the German market for at least two to three years** while the validity track runs. Even if BPatG later invalidates the patent, Generic Co. cannot recover the lost market opportunity (only damages for the period of wrongful enforcement, which are modest and often disputed). **This is the injunction gap: Pharma Co. extracts maximum leverage from a patent that ultimately fails.** Pharma Co.'s litigation counsel will invariably recommend Germany as the first-choice forum if the patent's validity is uncertain but the infringement case is clean.
+
+- **UPC (harmonized):** Pharma Co. files in Munich UPC local division. **Validity and infringement are heard together.** Generic Co.'s invalidity defense is heard by the same panel in the same proceeding. A credible prior art showing — even without full adjudication — will cause the UPC to decline a preliminary injunction or condition any injunction on a cross-undertaking in damages. If the prior art is strong, Generic Co. may persuade the court to **expedite the validity question before entering any injunctive order**. The injunction gap does not exist in the UPC. **Result: the same patent, against the same accused product, with the same prior art, yields a dramatically different risk profile for both parties in the UPC than in German national court.** A patent proprietor with a validity-uncertain patent prefers Germany; a defendant with a strong invalidity case prefers the UPC.
+
+---
+
+**Example 3: Claim interpretation — functional software claim**
+
+*Patent claim:* "A system for classifying financial transactions comprising a machine-learning classifier trained on historical fraud data."
+
+*Accused product:* Uses a rules-based expert system (not a machine-learning classifier) that achieves the same fraud-detection output.
+
+- **Germany (national):** Purposive construction of "machine-learning classifier" asks what function the element serves in the claimed system. If the specification teaches that the technical contribution is the adaptive learning from data (not the specific ML architecture), German courts may extend the claim to cover a rules-based system that achieves the same adaptive fraud classification. **Result: plausible infringement finding depending on specification framing.**
+
+- **France (national):** More literal read of "machine-learning classifier"; if the feature is described in the specification as a technical advance over prior rules-based systems, French courts may hold the claim language was deliberately chosen to exclude rules-based systems. **Result: likely non-infringement unless prosecution history is clean.**
+
+- **Netherlands (national):** Moderate purposive; similar analysis to Germany but with more structured prosecution history inquiry. **Result: uncertain; likely turns on how specifically the specification distinguishes ML from rules-based approaches.**
+
+- **UK (national):** UK purposive construction asks what the term "machine-learning classifier" would mean to a skilled person reading the specification. Post-*Actavis*, the equivalents question is whether a rules-based system achieves the same result in substantially the same way (*Actavis* question 1). The way question is critical: a rules-based system and an ML system are architecturally different; a UK court may hold they do not work "in the same way" even if they produce the same output. **Result: likely non-infringement on equivalents under UK law.**
+
+- **UPC (harmonized):** The UPC is expected to anchor claim interpretation in what the specification teaches as the **technical contribution**. If the specification frames the invention as a *data-adaptive learning system* distinguished over prior rules-based approaches, UPC will likely read "machine-learning classifier" as limiting the claim to ML architectures. If the specification frames the invention more broadly as a *fraud classification system* with ML as a preferred embodiment, broader coverage is possible. **Result: specification-sensitive; outcome differs based on how the specification was drafted,** not merely how the claim is worded.
+
+*Practical implication:* Across these five forums, the same claim on the same patent produces four different outcomes: Germany likely infringed, France and UK likely not, Netherlands uncertain, UPC specification-dependent. A plaintiff whose claim language is narrow but prosecution record is clean, and whose specification describes ML as a preferred embodiment (not the invention), should file in **Germany**. A defendant in the same facts should prefer **France or the UK**. For the **UPC**, the answer requires a careful specification analysis before any forum decision is made.
+
+---
+
+**Example 4: Experimental use — life sciences research**
+
+*Scenario:* Biotech Co. holds a patent on a CRISPR-based gene editing method. University Lab uses the patented method for academic research, then licenses the resulting findings to a commercial spinout that continues using the method to develop a commercial product.
+
+- **Germany (national), § 11 PatG:** University Lab's purely academic use is covered by the experimental use exemption. The commercial spinout's continued use *may* also qualify while it is still characterizing the invention's properties — German courts have interpreted the experimental use exemption broadly to cover commercial research directed at studying the patented invention itself. However, once the spinout is using the method to produce commercial product samples, the exemption may no longer apply.
+
+- **UK (national), Patents Act 1977 s. 60(5)(b):** The UK experimental use exemption is **narrower** than Germany's. It covers acts done "for experimental purposes **relating to the subject matter of the patented invention**" — meaning experiments aimed at testing or improving *that invention specifically*. Using the CRISPR method to develop a *different* product (even if patented research contributes to it) falls outside the UK exemption. Commercial research activities — even early-stage drug discovery — have been held by UK courts to fall outside the exemption. **Result: the spinout's use is likely infringing in the UK** even while very similar use would be exempt in Germany.
+
+- **UPC (harmonized), UPCA art. 27(b):** The UPC's experimental use exemption is harmonized across all participating states. Its language closely tracks the EPC-country model and most national laws. It covers "acts done for experimental purposes relating to the subject matter of the patented invention" — similar to UK language on its face. However, the UPC is expected to interpret this provision in light of the **legislative intent to harmonize**, drawing on the broader German tradition rather than the narrower UK approach. Early UPC commentary suggests the UPC harmonized exemption will be at least as broad as Germany's — potentially resolving the pre-UPC divergence between German and UK experimental use doctrine in favor of the broader standard.
+
+*Practical implication:* For life sciences clients managing research partnerships in Europe, the choice between UK jurisdiction and UPC jurisdiction (or German national jurisdiction) on experimental use claims can determine whether early-stage research activities are exempt from suit. Life sciences companies with EU-based research operations should factor the UPC's likely broader experimental use interpretation into their portfolio and licensing strategy.
+
+---
+
+#### Synthesis: How forum choice interacts with substantive law
+
+The examples above collapse into a manageable decision matrix:
+
+| Scenario | Preferred forum for proprietor | Preferred forum for defendant |
+| --- | --- | --- |
+| Strong triple-test equivalents case; prosecution history clean | Germany (national) | UPC or France |
+| Uncertain validity; strong infringement case | Germany (national, use injunction gap) | UPC (no injunction gap; validity heard simultaneously) |
+| Narrow claim language; need literal construction | France (more literal) | Germany (purposive, broader) |
+| Cross-border EU scope critical | UPC (EU-wide judgment) | National courts (segmented revocation risk) |
+| Spain or Poland is key market | Classic EP national validation; Spanish / Polish national courts | — no UPC option available — |
+| Life sciences experimental use issue | Germany or UPC | UK (narrow exemption cuts against researcher-defendant) |
+| Software / functional claim; ML/AI technology | Germany | UK or France |
+| Strong invalidity defense; defendant's strategic goal is revocation | UPC central division revocation (pan-EU wipeout of patent) | Germany (BPatG, but result limited to German bundle) |
 
 ---
 
@@ -408,9 +596,9 @@ This dimension is the most underappreciated by U.S. practitioners. The **outcome
 
 ---
 
-### V.D. Evidence and discovery: The most U.S.-jarring difference
+### V.D. Evidence and discovery: The absence of U.S.-style disclosure
 
-For U.S.-trained counsel, the evidence dimension is where European patent litigation feels most different from home.
+The evidence rules of European patent litigation diverge from U.S. practice more sharply than any other procedural dimension: there are no depositions, no interrogatories, and no obligation to produce documents on a unilateral demand. U.S.-trained counsel expecting the information-gathering tools of FRCP 26–37 will find that European litigation begins — and often ends — on the record available at the time of the initial pleadings.
 
 **No general pre-trial discovery in any European forum.** Unlike U.S. federal court practice under FRCP 26–37 (interrogatories, depositions, broad document requests), **European courts do not permit open-ended pre-trial discovery**. There are no depositions. There are no interrogatories. There is no obligation to produce all relevant documents on a unilateral request.
 
