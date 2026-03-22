@@ -1,0 +1,33 @@
+---
+description: Fed Circ paper—six staged chapter files, one woven manuscript, MPL + LinkedIn outputs
+alwaysApply: true
+---
+
+# Global prosecution paper (FCBA panel prep): staged build & final outputs
+
+## Where work lives (this project)
+
+- **Draft and revise** everything under **`D:\ProtonDrive\My files\Publications\Fed Circ Panel\`** (six chapters, merged master, panel notes).
+- **`C:\Users\paul\Documents\MPL\` is read-only** for this workstream: use **Publishing LLM** (voice, citations, Gamma) as **reference**; do not edit MPL files here unless Paul explicitly asks (e.g. final paste-up).
+- **Publish path:** when ready, Paul will **copy or promote** the finished piece into MPL / site / LinkedIn—treat that as **out of scope** for routine agent writes.
+
+## End state (always keep in mind)
+
+This project produces **one comprehensive manuscript**, not six disconnected papers. **Draft in six separate documents** (aligned to `Panel-Research-Outline.md` **§§1–6**) for easier review; **later weave** into a single continuous piece with a unified intro, cross-references, consistent terminology, and one bibliography or citation scheme.
+
+While working on **any single** chapter:
+
+- Avoid contradictions with other chapters; note **“merge flags”** where the woven version will need bridging prose.
+- Preserve **consistent defined terms** (e.g., UPC, UP, EP, CNIPA) across files.
+- Write so sections can stand alone **for now** but read as **parts of one thesis** (panel charge + outline “spine”).
+
+## Deliverable ladder
+
+1. **Six chapter drafts** — filenames up to Paul; map 1:1 to outline `## 1` … `## 6`.
+2. **Master document** — merged, deduplicated, transitions, single table of contents.
+3. **MPL publication** — full article for **Modern Patent Law** (`ip.modernpatentlaw.com`); **draft for MPL voice/cites while files still live in Fed Circ**; apply **Publishing LLM** (`#Comprehensive` / Ginsburg primary; Holmes summaries; Kagan primers as needed) and **Modern Patent Law Citation Style Guide** (AI draft → attorney final). **Gamma Instructions** brand constraints: authoritative, accessible, no hype, concrete examples, quote-worthy clarity. **Copy into MPL** when Paul is ready—not the default save location during this project.
+4. **LinkedIn** — shorter derivative; same factual claims, tighter hooks; still **credible** (no metric stuffing or vendor tone per MPL messaging norms).
+
+## Panel vs. publish
+
+The **55-minute panel** uses synthesis from this work; the **long paper** can go deeper than the podium. Do not assume the **LinkedIn** piece equals the **oral** script.
