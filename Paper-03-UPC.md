@@ -187,15 +187,15 @@ Over **ten years**, the cost of maintaining a single patent in these five high-v
 
 ### IV.C. Renewal and deadline-management playbook (explicit line-item answers)
 
-For readers who asked “where are the fees?” and “how to manage renewals and tolling,” here is the authoritative, consolidated answer:
+Managing a European patent portfolio requires rigorous cost modeling across structurally different fee regimes. The questions that arise most frequently in practice concern actual dollar amounts, the administrative complexity of tracking multiple national deadlines, and the relationship between EPO procedural timetables and UPC jurisdictional obligations. This subsection provides explicit, line-item answers to each.
 
 - **UPC (Unitary Patent) renewal fee range:** roughly **€220 to €630 per year**, scaling with age and surcharges for late payment, and payable once for entire unitary territory. If paid in EUR, convert at 1 EUR ≈ 1.08 USD: **$238–$680**.
 - **Classical validation renewal fees per country:** Germany 70–550€/year, France 70–500€/year, Benelux 120–400€/year, UK 50–200£/year. For five-country bundle: **€310–€1,650/year** + GBP element. USD equivalents are **$335–$1,782** (assuming 1 GBP ≈ 1.28 USD).
 - **National renewal complexity:** The same patent in 5 states has up to 5 deadlines, 5 currencies, separate reminder systems, and differing grace periods. This is the principal non-fee burden that drives UP advantage for broad EU coverage.
 - **Tolling/extension context:** UPC transitional opt-out deadline is one month before the transition ends (currently May 1, 2030; potential extension to 2037). There is no substantive tolling of the opt-out trigger date beyond legislative extension, so treat it as effectively hard in practice. For classical validations, no tolling exists in national renewal schedules; missing a due date typically triggers a short grace period followed by a fee surcharge and eventually lapse. Track with docketing software accordingly.
-- **EPO opposition and UPC action timing:** The 9-month EPO opposition window and UPC revocation actions run to separate timetables; there is no mutual tolling (a pending opposition does not suspend UPC renewal obligations or UPC “clock”). This is key to your earlier question on “tolling” and timelines.
+- **EPO opposition and UPC action timing:** The nine-month EPO post-grant opposition window (EPC art. 99) and UPC revocation actions run on entirely separate procedural timetables; there is no mutual tolling. A pending EPO opposition does not suspend UPC renewal obligations, alter UPC jurisdictional timing, or stay UPC litigation. Deadline-management systems must track both tracks simultaneously without assuming any linkage between them.
 
-**UPC vs OPT-OUT justification:** The high-grade answer is in the paper already: UPC consolidates jurisdiction and reduces renewal complexity, but adds single-point revocation risk. Opt-out preserves the national path and separate country renewals, which is preferred for borderline validity cases.
+**UPC vs OPT-OUT justification:** The UPC consolidates jurisdiction and reduces renewal complexity, but adds single-point revocation risk. Opt-out preserves the national path and separate country renewals, which is preferred for borderline validity cases.
 
 **Core comparison table with 10-year model:**
 
@@ -207,11 +207,11 @@ For readers who asked “where are the fees?” and “how to manage renewals an
 
 \*includes only country fees; does not include national litigation costs.
 
-**“Why UPC appears more expensive in litigation” answer (from your question and differential):** UPC judicial costs (e.g., filings, English-language heavy document drafting, translation, higher witness/event compensation) appear high in absolute terms compared to a single national action, but represent a consolidated expense across 18 states. If your comparative metric is per-state coverage, UPC is usually cheaper; if your metric is dollar-per-lawsuit, UPC can exceed classical single-country costs for smaller disputes.
+**Why UPC may appear more expensive in litigation:** UPC judicial costs (e.g., filings, English-language heavy document drafting, translation, higher witness/event compensation) appear high in absolute terms compared to a single national action, but represent a consolidated expense across 18 states. If the comparative metric is per-state coverage, UPC is usually cheaper; if the metric is dollar-per-lawsuit, UPC can exceed classical single-country costs for smaller disputes.
 
-**USPTO IPR vs UPC revocation cost relation:** A typical IPR in the U.S. costs $500k–$1.5M to litigate (close party-by-party). UPC revocation has a typical baseline of $66k–$385k (This paper includes line-item conversion). Therefore UPC is materially lower per-action, but it may eliminate the option to “play jurisdictions” and may bring higher stakes due to multi-state effect.
+**USPTO IPR vs UPC revocation cost relation:** A typical IPR in the U.S. costs $500k–$1.5M to litigate (close party-by-party). UPC revocation has a typical baseline of $66k–$385k (see line-item conversion above). Therefore, UPC is materially lower per-action, but it may eliminate the option to “play jurisdictions” and may bring higher stakes due to multi-state effect.
 
-**National litigation comparison:** The paper now explicitly includes this answer in Section IV.D (below).
+**National litigation comparison:** See Section V (*Forum Shopping*) below for a systematic, forum-by-forum comparison of litigation procedures, evidence rules, injunctive relief standards, and cost structures across the UPC, Germany, France, the Netherlands, and the United Kingdom.
 
 
 **Cost-benefit snapshot of UP vs. selective national strategy.** A Unitary Patent covering all **18 participating EU member states** costs approximately **€0 at grant + €220–€630/year renewal** (single annual payment, single deadline). The effective **10-year cost** is dominated by renewals (~€2,000–€8,000 over ten years) but **requires no multistate coordination**. A company validating selectively in the top five markets incurs **€9,000–€24,000** and must **manage five separate renewal deadlines, currencies (four in EUR, one in GBP), and individual office requirements**.
@@ -307,6 +307,282 @@ A question frequently asked by U.S. patent counsel confronting the UPC for the f
 
 ---
 
+## V. Forum Shopping: Choosing the Right Forum — National Courts Versus the UPC
+
+**A practitioner's guide to the forum decision.** The UPC's opening did not eliminate national courts — it layered a new forum on top of them. For classic European patents not opted out, the transitional period means both forums may be available simultaneously, creating a genuine forum-choice problem that is likely the most consequential strategic decision in European patent enforcement today. The stakes are high: forum choice affects the applicable law, the evidence rules, the timeline, the scope of any remedy, and the magnitude of central revocation risk, all at once.
+
+This section analyzes each dimension systematically so that U.S.-based in-house counsel and their European litigation partners can frame the choice with precision.[^29]
+
+---
+
+### V.A. Jurisdiction and eligibility: When is the choice actually available?
+
+Before forum shopping begins, a threshold question must be answered: **is the choice available at all?**
+
+**Unitary Patents: No choice.** For patents granted as Unitary Patents (UP), the UPC has **exclusive jurisdiction** for infringement and revocation.[^30] National courts cannot hear UP infringement actions. If your patent is a UP, you are in the UPC — full stop.
+
+**Classic EPs, opted out: No UPC.** For classic European patent bundles where the proprietor has filed a valid opt-out under **UPCA Article 83**, the UPC lacks jurisdiction throughout the life of the patent. Enforcement must proceed in individual national courts.
+
+**Classic EPs, not opted out, during the transitional period (until at least June 1, 2030): Genuine choice.** The patent proprietor may sue in a UPC local or regional division, or in a national court, for infringement. An accused infringer may file a **counterclaim for revocation** (UPC) or a **standalone revocation action** in a national court, depending on where the action is filed. Once either party files in one forum, certain jurisdictional rules lock in (discussed below).
+
+**Practical threshold checklist:**
+
+| Question | Yes → | No → |
+| --- | --- | --- |
+| Is this a Unitary Patent? | UPC only; no national court option | Continue |
+| Has a valid opt-out been filed? | National courts only | Continue |
+| Has the transitional period ended? | UPC has exclusive jurisdiction (post-2030/2037) | Both forums available |
+| Is the defendant in a non-participating state (e.g., UK)? | National court in that state; UPC for UPC states | Continue |
+
+---
+
+### V.B. Substantive law: What legal rules will the judge apply?
+
+This dimension is the most underappreciated by U.S. practitioners. The **outcome of the same infringement case can differ depending on forum**, because the forums apply distinct bodies of law.
+
+**National courts apply national patent law.** A German court hearing a patent infringement case applies **German patent law** (Patentgesetz, PatG), supplemented by German civil procedure (Zivilprozessordnung, ZPO) and German courts' own doctrine. France applies **French intellectual property law** (Code de la propriété intellectuelle, CPI). These national regimes, while all derived from the EPC as a common grant standard, have **developed independent jurisprudence** on:
+
+- **Claim interpretation / scope of protection** — German courts historically applied a "purposive construction" approach (functional equivalence favored); French courts tended toward a somewhat stricter literalist reading; UK courts (pre-Brexit) developed a distinct "Improver"/"Protocol Questions" approach for equivalents.
+- **Doctrine of equivalents** — German courts recognized equivalents broadly under the "triple test" (same result, same way, obvious to the skilled person); French courts applied a somewhat analogous but independently developed doctrine; UK courts applied the *Actavis v. Eli Lilly* (2017) reformulation.
+- **Injunctive relief culture** — German courts were famous for granting **injunctions as near-automatic** upon a finding of infringement, with limited equitable balancing; French courts granted injunctions readily too; Dutch courts were historically more proportionality-conscious.
+- **Proportionality of injunctions** — pre-UPC, the *eBay* factor-balancing familiar to U.S. practitioners was absent from most continental European national courts, where injunctions were largely automatic.<br>
+
+**The UPC applies harmonized, EPC-based law under Article 34 UPCA.** As discussed in Section IV above, the UPC does **not** apply the national law of the country where infringement occurred. It applies the **UPCA itself** and the **EPC's substantive framework** — meaning a single harmonized legal standard for all 18 participating states.[^31]
+
+**Key divergences between UPC and leading national courts:**
+
+| Legal dimension | German national court | French national court | UPC (harmonized) |
+| --- | --- | --- | --- |
+| **Claim interpretation** | Purposive; broad functional reading of claims | Mixed; literalist to moderately purposive | EPC-based; specification-grounded; evolving case law |
+| **Doctrine of equivalents** | Broad "triple test" (same function, same way, same result); well-developed | French equivalent doctrine (résultat identique approach) | Not yet fully codified in UPC Rules; harmonized standard expected; early decisions suggest more restrained equivalents |
+| **Injunction culture** | Near-automatic on liability finding | Near-automatic | Proportionality analysis required under UPCA art. 63; early UPC decisions show willingness to apply proportionality (distinguishing from purely automatic German model) |
+| **Bifurcation** | **Classic bifurcation** — infringement tried separately from validity; validity referred to Federal Patent Court | No bifurcation; infringement and validity heard together | **No bifurcation** — UPC hears infringement and validity together in same proceeding |
+| **File history estoppel** | Used, but less developed than U.S. practice | Limited use | Expected to play central role; multi-state prosecution record read holistically |
+| **Inventive step standard** | Problem-solution approach (EPO-harmonized) | Problem-solution approach (EPO-harmonized) | Problem-solution approach (EPC Articles 52, 56); consistent with EPO Boards of Appeal |
+
+**The bifurcation difference is outcome-determinative in many cases.** The German system's classical bifurcation created a phenomenon known as the **"injunction gap"**: a patent proprietor could obtain a German infringement judgment (and therefore an injunction) **before** the Federal Patent Court (*Bundespatentgericht*, BPatG) ruled on the validity challenge. This gap — sometimes 12–24+ months — allowed a dominant patent holder to extract licensing terms or exclude a competitor from the German market based on an infringement finding that a later BPatG ruling might ultimately reverse. The UPC eliminates this advantage entirely: validity and infringement are always heard together, meaning that a credible invalidity defense **stays the injunction** or significantly tempers the court's willingness to grant one before the full merits.[^32]
+
+---
+
+### V.C. Court procedure and case management: Speed, structure, and front-loading
+
+**UPC (Rules of Procedure, r. 13–147).**
+
+- **Written phase:** All substantive arguments must be presented in the initial **Statement of Claim** (plaintiff) and **Statement of Defense / Counterclaim for Revocation** (defendant). The UPC Rules front-load the written phase heavily. Claims, infringement maps, claim charts, evidence, and supporting expert declarations are typically submitted with the initial pleadings, not developed over time as in adversarial U.S. practice.
+- **Interim conference:** The presiding judge typically directs a **Case Management Conference** (CMC) at which the issues are narrowed, additional expert evidence is organized, and the hearing date is fixed. The CMC is a powerful tool for the bench to control scope.
+- **Oral hearing:** The oral hearing itself is typically a **single day or half-day**, focused and judge-driven. Extended direct and cross-examination of witnesses (as in U.S. practice) is unusual. Expert witnesses may be questioned but the scope is judge-controlled.
+- **Timeline target:** The UPC Rules contemplate a **first-instance decision within approximately 12–14 months** of filing. This is materially faster than most national courts other than Germany.
+- **Preliminary injunctions:** UPC local and regional divisions have granted **preliminary injunctions** under **UPCA Article 62** in cases involving infringement *prima facie* and urgency, with a proportionality analysis. Timeline: 2–4 weeks for ex parte orders; contested PI hearings within 2–3 months.
+
+**German national courts (Landgericht / Oberlandesgericht).**
+
+- **Speed:** Germany is **the fastest national patent court in Europe** for first-instance infringement decisions — routinely **9–15 months**, and in some divisions (Munich, Düsseldorf, Mannheim) even faster. This made Germany the dominant European forum pre-UPC and remains highly competitive.
+- **Language:** German. No significant English-language proceedings for infringement; translation of all documents required.
+- **Bifurcation:** As noted above, validity is referred to the **BPatG** (Federal Patent Court) in Düsseldorf, creating simultaneous tracks. The infringement Landgericht may (but need not) **stay** the infringement action pending the BPatG validity decision — the decision to stay is discretionary and courts historically stayed reluctantly, preserving the injunction gap.
+- **No CMC:** No formal case management conference; proceedings proceed by letter rogatory / exchange of briefs.
+- **Automatic injunction culture:** Historically near-automatic injunction on liability. Post-2021 reforms (§ 139 PatG amendment) introduced a proportionality defense, softening the automatic nature — but German courts have applied the proportionality defense narrowly, still granting injunctions in the vast majority of cases.
+
+**French national courts (Tribunal judiciaire de Paris — specialized patent chamber).**
+
+- **Speed:** Slower than Germany — typically **18–36 months** to first-instance decision; appeals add 12–24 months.
+- **No bifurcation:** Infringement and validity heard together.
+- **Language:** French only. Translation into French required for all patents and documents.
+- **Evidence:** Limited document production; no U.S.-style discovery; oral testimony less common.
+- **Injunctions:** Courts grant injunctions readily, but are also willing to impose **damages** in lieu of injunction (astreinte / damages-only outcomes are not unknown in complex tech cases).
+
+**Netherlands (Rechtbank Den Haag — specialized patent chamber).**
+
+- **Historically the preferred "torpedo" and PI forum.** Dutch courts pioneered cross-border pan-European provisional measures under what was once called "spider in the web" theory, and were the preferred forum for aggressive plaintiffs seeking EU-wide preliminary injunctions before the UPC existed.
+- **Speed:** Interlocutory PI decisions in **weeks to months**; full proceedings take 18–24 months.
+- **Language:** Dutch, but courts have strong tradition of conducting hearings in English for international cases (Netherlands has a long practice of bilingual IP proceedings).
+- **Post-UPC:** Many plaintiffs who previously chose the Dutch Hague court for cross-border EU reaches now choose UPC divisions for similar strategic ends, but the Dutch court retains its role for UK-nexus cases and non-UPC defendants.
+
+**UK courts (Patents Court / IPEC, post-Brexit).**
+
+- **Not in the UPC.** The UK has not joined the UPC and cannot join without re-entry to the relevant treaties. UK courts apply UK patent law, which diverged from EPC-member national law as of January 1, 2021.
+- **Discovery / disclosure:** UK law provides **more extensive document disclosure** than any continental European system — closer in scope (though not identical) to U.S. discovery. Rules: Civil Procedure Rules (CPR), Practice Direction 49I (IPEC) and Part 63 (Patents Court).
+- **Expert witnesses:** UK practice relies heavily on party-appointed expert witnesses who can be cross-examined in court — closer to U.S. expert practice than continental systems.
+- **Language:** English; no translation burden.
+- **Speed:** Patents Court: 18–36 months. IPEC: 12 months (streamlined for smaller cases, damages cap of £500k, simplified procedure).
+- **Doctrine of equivalents:** UK post-*Actavis v. Eli Lilly* \[2017\] UKSC 48 now recognizes a structured equivalents doctrine — similar in concept to U.S. doctrine but distinct in application.
+
+---
+
+### V.D. Evidence and discovery: The most U.S.-jarring difference
+
+For U.S.-trained counsel, the evidence dimension is where European patent litigation feels most different from home.
+
+**No general pre-trial discovery in any European forum.** Unlike U.S. federal court practice under FRCP 26–37 (interrogatories, depositions, broad document requests), **European courts do not permit open-ended pre-trial discovery**. There are no depositions. There are no interrogatories. There is no obligation to produce all relevant documents on a unilateral request.
+
+**UPC evidence rules (r. 170–202 UPC Rules of Procedure).**
+
+- The UPC may order **production of specific documents or categories of documents** upon application by a party. The requests must be **particularized** — fishing expeditions are rejected.
+- **Inspection orders** (UPCA art. 60): the UPC may order an inspection of premises, products, or processes on application, including preserving evidence of infringement before trial. This is analogous to an Anton Piller order or seizure order — a powerful tool for plaintiffs who lack access to the defendant's manufacturing processes.
+- **Expert witnesses:** The court may appoint a **court-appointed expert** (*amicus* style) whose report the parties may comment on. Party-appointed experts are permitted, but courts treat their opinions with awareness of party interest.
+- **Witnesses and oral testimony:** Witnesses may be heard at the oral hearing, but this is judge-directed, not adversarial U.S.-style cross-examination.
+- **Confidentiality orders:** Available to protect trade secrets from being disclosed in proceedings — a critical factor in cases involving proprietary manufacturing processes or algorithms.
+
+**German courts (ZPO, §§ 142, 144, 371a).**
+
+- Germany historically had **very limited document production** obligations. The *Düsseldorf model* allowed some **specific document requests** for license agreements and accounting records in damages phases, but pre-trial discovery as understood in the U.S. was essentially nonexistent.
+- **Saisie contrefaçon equivalent (Beweisbeschaffung):** Available under § 140c PatG — allows seizure of specific evidence of infringement with a court order.
+
+**French courts (CPC, arts. 132–142, 145).**
+
+- France offers a powerful tool: the **saisie-contrefaçon** — a pre-litigation evidentiary seizure order issued ex parte by a French court that authorizes a bailiff to seize physical evidence of infringement. If you need to capture product samples, manufacturing data, or confidential technical documents, the saisie is the most aggressive evidence-collection tool in European patent litigation.
+- **Document production:** French courts can order production of specific documents (including license agreements) under art. 145 CPC — broader than Germany in litigation-phase but still not U.S. discovery.
+
+**UK courts (CPR, Practice Direction 31A–B).**
+
+- UK disclosure is the **most extensive** in Europe — **standard disclosure** requires each side to disclose documents that (a) support their case, (b) harm their case, or (c) support the other party's case. This is substantially broader than continental Europe and narrows the information asymmetry that can plague U.S. companies litigating in Germany or France where they cannot easily learn what the defendant actually did.
+- **Cross-examination:** Full adversarial cross-examination of witnesses and experts at trial — matches U.S. comfort level.
+
+**Strategic implication:** If document production and access to the defendant's technical information are case-dispositive (e.g., a pharmaceutical manufacturing-process patent), the **UK forum or French saisie-contrefaçon** may be critical tools. If the case is clean on the public record and the primary goal is multi-state scope and speed, the **UPC is preferable**. If narrow jurisdictional exposure and speed in the highest-value single market are the goal, **German courts** remain formidable.
+
+---
+
+### V.E. Injunctive relief, proportionality, and remedies
+
+**Injunctions are the primary driver of forum choice for offensive plaintiffs.** An injunction that blocks a competitor's product across 18 EU states is categorically more powerful than a German-only injunction. But the ease of obtaining it — and the risk of losing it — differs by forum.
+
+**UPC Articles 62–68 govern provisional and permanent injunctions and remedies.**
+
+- **Provisional measures (PI):** Available under art. 62 when infringement is *prima facie* established and urgency is shown. The UPC has granted PIs in cases involving clear infringement, speed-sensitive markets (e.g., consumer electronics, pharma), and markets with active infringing sales. Proportionality under art. 63 means courts ask whether the harm to defendant exceeds the harm to plaintiff if relief is denied — a more structured analysis than the historically automatic German model.
+- **Final injunctions:** Upon a finding of infringement, UPC courts have broad authority to grant final injunctions, seizure orders, recall orders, and destruction orders across the UPC territory. Damages are awarded under national principles (the UPCA does not harmonize damages calculation fully — a known gap that may generate divergences in quantum even as liability is harmonized).
+
+**Germany (§ 139 PatG — proportionality amendment of 2021).**
+
+- Before 2021, injunctions in Germany were **automatic** on infringement finding — no equitable balancing. The 2021 reform introduced a proportionality defense allowing courts to **modify or deny** an injunction where enforcement would cause "disproportionate hardship" to the infringer or third parties and plaintiff's interests can be adequately protected by damages. In practice, courts have applied this narrowly; injunctions are still granted in the vast majority of cases, but the landscape is incrementally shifting toward more equitable analysis in complex supply-chain cases (e.g., SEP disputes).
+
+**France (Code de la propriété intellectuelle, arts. L. 615-3, L. 615-7).**
+
+- French courts grant provisional and permanent injunctions. **Astreinte** (periodic penalty payments compounding per day of non-compliance) can be extreme — French courts have imposed astreintes of tens of thousands of euros per day, making compliance essentially mandatory once a final order issues. However, French courts are also more willing than German courts to award **damages in lieu of injunction** in cases where the equitable balance favors compensation over exclusion.
+
+**UPC vs. national court — the injunction calculus:**
+
+| Scenario | Best forum for automatic, broad injunction | Best forum to resist / limit injunction |
+| --- | --- | --- |
+| Clear infringement, large EU market exposure | UPC (pan-EU scope, proportionality applies but broadly granted on clear cases) | National court (segmented; fight country-by-country) |
+| Complex supply chain, SEP context | Germany (proportionality defense, active SEP case law) | UPC (proportionality analysis; early decisions learning curve) |
+| Urgent/speed-sensitive (e.g., drug launch) | France (saisie + rapid PI); UPC if EU-wide PI needed | UK (IPEC for smaller disputes; £500k damages cap limits exposure) |
+| Defendant primarily in non-participating state | UK national court | National court of defendant's jurisdiction |
+
+---
+
+### V.F. Costs and fee-shifting
+
+**UPC costs (r. 150–160 UPC Rules of Procedure).**
+
+The UPC operates a **fee-shifting regime**: the losing party bears the winner's **reasonable costs** up to a **ceiling** set by the Court of Appeal. The ceilings are tiered by the value of the claim:
+
+| Claim value (EUR) | Maximum recoverable costs (winner) |
+| --- | --- |
+| Up to €250,000 | €38,000 |
+| €250,001–€500,000 | €50,000 |
+| €500,001–€1,000,000 | €100,000 |
+| €1,000,001–€2,000,000 | €150,000 |
+| €2,000,001–€5,000,000 | €200,000 |
+| Above €5,000,000 | Up to €2,000,000 (discretionary) |
+
+This differs fundamentally from **U.S. practice** (where fee-shifting under the "exceptional case" doctrine of 35 U.S.C. § 285 is the exception, not the rule). European litigants routinely budget **losing-side costs** into their risk analysis. A plaintiff who loses an infringement action in the UPC may owe the defendant up to €2M in attorneys' fees — a financial deterrent to strike suits and a strong incentive to assess validity carefully before filing.
+
+**German courts:** Germany also has **statutory fee-shifting** under the Rechtsanwaltsvergütungsgesetz (RVG) for attorneys' fees and court fees under the Gerichtskostengesetz (GKG), scaled by the value of the case. German attorneys' fees on the statutory scale can be lower than actual billed hours, but statutory cost awards are routine.
+
+**French courts:** France similarly operates a **partial cost-shifting** regime; courts typically do not award full attorneys' fees but routinely award a portion (€20,000–€100,000+ in mid-size matters) under art. 700 CPC.
+
+**UK courts (CPR Part 44):** UK fee-shifting is the **most generous** in Europe — the English indemnity principle means successful parties can recover a **substantial portion of actual costs**. UK IPEC (Intellectual Property Enterprise Court) caps costs at **£60,000** for smaller matters, making it more accessible for smaller defendants. The full Patents Court has no formal cap; costs in complex cases can reach **£1M–£5M+** for winners.
+
+---
+
+### V.G. Jurisprudence and predictability: What does the judge bring to the case?
+
+**Established jurisprudence is a major advantage of national courts.** Germany's Düsseldorf, Munich, and Mannheim Landgerichte have **decades of documented patent jurisprudence** covering claim construction, equivalents, validity, and damages. A German patent litigator can predict, with reasonable accuracy, how a given three-judge panel will likely read a specific type of claim amendment. This **case law predictability** is enormously valuable for pricing litigation risk and developing settlement strategy.
+
+**France similarly has an established body of jurisprudence** through the Paris Tribunal judiciaire and Cour d'appel de Paris, with a specialized chamber (Pôle 5, chambre 2) handling patents. While French patent opinions are less extensively published and discussed in English-language literature than German opinions, French jurisprudence on pharmaceutical patents, equivalents, and contributory infringement is developed.
+
+**The UPC is, as of 2026, a new court with developing jurisprudence.** Early decisions (2023–2026) are being absorbed rapidly by practitioners, and leading UPC local divisions (Munich, Düsseldorf, Paris, Helsinki) are establishing reputations. But the baseline of precedent is thin compared to the national courts. Key open questions as of March 2026 include:
+
+- **Scope of the UPC's doctrine of equivalents** — how much latitude beyond literal claim language will UPC panels consistently allow?
+- **Proportionality of injunctions in SEP/FRAND context** — does the UPC apply a structured FRAND analysis, and if so, what standard?
+- **Claim interpretation in software and AI patents** — will UPC panels take a restrictive EPO-driven "technical effect" approach or a more expansive purposive reading?
+- **Bifurcation workarounds** — several national local divisions in Germany sit as UPC local divisions, and observers are watching whether procedural culture bleeds into UPC practice.
+
+**Prediction:** As UPC jurisprudence matures (2027–2032), predictability will likely approach national-court levels in the most active divisions, and parties will be able to calibrate forum choice with greater precision. Today, the uncertainty about UPC outcomes is itself a forum-selection factor — conservative patent holders may prefer known national jurisprudence for high-stakes first enforcements.
+
+---
+
+### V.H. Forum shopping in practice: Division shopping within the UPC
+
+Even within the UPC, **choice of division** is a form of forum shopping. The jurisdictional rules for UPC local divisions are governed by **UPCA Articles 33 and 71b**, which permit infringement actions to be filed in the division of the **defendant's registered office**, the division where **infringement occurred**, or in certain circumstances, any division by agreement.
+
+In practice, early filing patterns show that:
+
+- **Munich local division:** Attracting pharmaceutical and biotech cases; German-speaking; perceived as technically sophisticated.
+- **Düsseldorf local division:** Attracting technology and consumer electronics cases; legacy of German patent court reputation.
+- **Paris central division (seat for technical areas):** Handling central revocation actions for certain IPC sections; French-language option.
+- **Helsinki local division:** Emerging tech-friendly reputation; English-language proceedings available; attractive to Nordic tech companies and U.S. companies preferring English.
+- **Mannheim local division:** Attracting patent enforcement cases with speed focus; German legacy.
+
+**The Helsinki factor for U.S. clients.** For U.S.-based patent proprietors seeking English-language UPC proceedings, the **Helsinki local division** and several others (Nordic regional, Lisbon) officially operate in English, and the UPC Rules permit English-language proceedings in any division where the parties agree. This materially reduces translation cost and counsel coordination burden for U.S. companies.
+
+---
+
+### V.I. Decision framework: When to choose the UPC vs. a specific national court
+
+The following framework synthesizes the dimensions above into actionable guidance:
+
+**Choose the UPC when:**
+
+1. **Geographic scope matters** — infringement is occurring across multiple EU states and a single judgment with EU-wide effect has clear commercial value.
+2. **Patent is strong on validity** — you are comfortable with the absence of bifurcation and willing to defend validity and assert infringement in the same proceeding.
+3. **Speed is valued and the case is complex** — the UPC's 12–14 month timeline is attractive, and the case involves technical complexity that benefits from a specialized multi-national panel.
+4. **Defendant is primarily based in a single EU country but sells across Europe** — a UPC infringement judgment avoids the need for multiple national enforcement steps.
+5. **An EU-wide injunction is the strategic goal** — especially in a first-mover or launch-exclusion context (e.g., pharmaceutical launch injunction, feature exclusion in consumer electronics).
+
+**Choose a German national court when:**
+
+1. **Fastest time to judgment in a single top market** — Germany's 9–15 month timeline in major patent courts (Munich I, Düsseldorf, Mannheim) beats the UPC's 12–14 months head-to-head in Germany-only disputes, with the additional advantage of bifurcation.
+2. **Bifurcation is strategically valuable** — plaintiff wants an infringement judgment before the Federal Patent Court (BPatG) rules on validity, preserving the injunction gap.
+3. **Germany is the dominant commercial market for the dispute** — if 80% of EU infringing activity is in Germany, German national action may be fully sufficient.
+4. **Strong EPO-style prosecution record supports a validity-first approach** — you are confident the patent is valid but want to separate the validity fight from the infringement track strategically.
+
+**Choose France when:**
+
+1. **Evidence seizure is critical** — the **saisie-contrefaçon** gives access to physical evidence at the defendant's facility before litigation commences; no other EU forum offers this pre-litigation access as efficiently.
+2. **French market is key** — primary infringer is a French company, manufacturing in France.
+3. **Provisional injunction with astreinte is the preferred pressure tactic** — French astreinte penalties compound aggressively and can force rapid settlement.
+
+**Choose the UK (post-Brexit) when:**
+
+1. **Discovery / disclosure is case-dispositive** — UK's CPR standard disclosure gives access to documentary evidence that continental European courts won't order; if the defendant's internal documents are essential to the infringement case, UK is the better forum.
+2. **Expert witness testimony is decisive** — UK's adversarial cross-examination of experts allows testing of complex technical theories in a way that continental written-advocacy systems do not.
+3. **English language is essential** — counsel time, translation cost, and management comprehension all factor in; UK proceedings in English eliminate barriers.
+4. **The patent is not validated in any UPC state** — or the defendant's relevant activity is exclusively UK-based.
+5. **Smaller claim, IPEC appropriate** — IPEC's streamlined procedure and capped costs make it the right venue for mid-market patent disputes (damages <£500k, shorter timeline).
+
+**Choose national court (any) to defend when:**
+
+1. **Patent has known validity vulnerabilities** — fragmenting revocation risk across multiple national courts is defensive; a single successful UPC revocation wipes out the patent EU-wide, whereas a national court invalidity ruling affects only one jurisdiction.
+2. **Opponent's patent is non-opted-out** — during transitional period, you can challenge in either forum; if the patent has prior-art risks, filing a central UPC revocation action to invalidate across all states is strategically attractive for defendants.
+
+---
+
+### Further reading (Section V — Forum shopping)
+
+- *Agreement on a Unified Patent Court* arts. 33, 62–68, 71b, EPO.org (consolidated), https://www.epo.org/en/legal/up-upc/2022/upca.html (last visited Mar. 22, 2026) (jurisdictional rules, injunctions, remedies, division selection).
+- Unified Patent Ct., *Rules of Procedure* rr. 13–202, https://www.unifiedpatentcourt.org/en/rules-of-procedure (last visited Mar. 22, 2026) (written procedure, evidence, cost rules).
+- Unified Patent Ct., *Orders and Decisions* (portal), https://www.unifiedpatentcourt.org/en/news/orders-and-decisions (last visited Mar. 22, 2026) (primary source for provisional measures decisions and substantive opinions; **always verify from official PDFs**).
+- *Gesetz über den Schutz geistigen Eigentums* (Patentgesetz, PatG) § 139 (as amended 2021) (German proportionality defense; verify current text at Bundesjustizministerium, https://www.gesetze-im-internet.de/patg/index.html) (last visited Mar. 22, 2026).
+- *Code de la propriété intellectuelle* (CPI) arts. L. 615-3, L. 615-7 (French provisional measures and injunctions), Légifrance, https://www.legifrance.gouv.fr/ (last visited Mar. 22, 2026).
+- *Actavis UK Ltd & Ors v. Eli Lilly & Co*, \[2017\] UKSC 48 (UK Supreme Court — reformulated doctrine of equivalents in UK patent law; analogous influence on UPC equivalents reasoning).
+- Bird & Bird LLP, *Comparison of UPC Local Divisions: Procedural Differences and Best Practices*, Bird & Bird (2024–2025), https://www.twobirds.com/en/campaigns/upc (navigate to division comparison resources; last visited Mar. 22, 2026).
+- Bristows LLP, *Forum Shopping in the UPC Era: National Courts vs. the UPC*, Bristows (2024), https://www.bristows.com/unified-patent-court/ (search site; confirm individual article title and date; last visited Mar. 22, 2026).
+- Hogan Lovells, *UPC Division Guide*, https://www.hoganlovells.com/en/publications (search "UPC division"; last visited Mar. 22, 2026).
+- JUVE Patent, *Where Litigants Are Filing in the UPC: A Statistical Review* (verify title and date; last visited Mar. 22, 2026), https://www.juve-patent.com/.
+- Unified Patent Ct., *Annual Report 2024*, supra (division caseloads and filing distributions).
+
+---
+
 ## Merge flags (for the final woven manuscript)
 
 - **§1 (Global prosecution / AI):** EU regulatory and **commercial** context (e.g., product rules affecting documentation) ties to portfolio spend; keep a **single** cross-reference rather than repeating **AI Act** detail here.  
@@ -318,7 +594,7 @@ A question frequently asked by U.S. patent counsel confronting the UPC for the f
 
 ## Footnotes (first reference forms; see Bibliography for repeat-cite guidance)
 
-[^1]: *See generally* *Agreement on a Unified Patent Court* pmbl., arts. 3, 31–33, 71, 83, EPO.org, https://www.epo.org/en/legal/up-upc/2022/upca.html (last visited Mar. 8, 2026).  
+[^1]: *See generally* *Agreement on a Unified Patent Court* pmbl., arts. 3, 31–33, EPO.org, https://www.epo.org/en/legal/up-upc/2022/upca.html (last visited Mar. 8, 2026).  
 [^2]: *Agreement on a Unified Patent Court* art. 32; *see* Eur. Patent Off., *FAQ: What Are the Arrangements for the Transitional Period*, https://www.epo.org/en/service-support/faq/law-practice/unified-patent-court/what-are-arrangements-transitional-period-opt (last visited Mar. 8, 2026).  
 [^3]: *Agreement on a Unified Patent Court* art. 83; *see* Eur. Patent Off., *FAQ: What Are the Arrangements for the Transitional Period*, *id.*  
 [^4]: *See* Unified Patent Ct., *Annual Report 2024*, infra Bibliography A.  
@@ -345,104 +621,17 @@ A question frequently asked by U.S. patent counsel confronting the UPC for the f
 [^25]: *See* Eur. Patent Off., *Unitary Patent Fees* (last visited Mar. 22, 2026); *Agreement on a Unified Patent Court* art. 8 (UP registration mechanics).  
 [^26]: *See* WIPO, *PCT Applicant's Guide* vol. II (National Phase), supra (30/31-month timeline and fee-deferral mechanics).  
 [^27]: *See* *Agreement on a Unified Patent Court* art. 34 (establishing applicable law framework); *Agreement on a Unified Patent Court* arts. 52–76 (cross-reference to EPC patentability standards); *see also* Konrad Sippel *et al.*, *The UPC and Its Harmonized Approach to Substantive Patent Law*, 56 Int'l Rev. Intell. Prop. & Competition L. 4 (2025) (academic analysis of early UPC jurisprudence on harmonized law).  
-[^28]: *Compare* *Agreement on a Unified Patent Court* art. 34 (UPC applies EPC-based law uniformly), *with* *Bundespatentgericht* (German Patent Court) jurisprudence on national-law infringement standards (*e.g.*, *Schneidrad II*, BVerfG 1 BvR 606/07 (2009) (German constitutional standards on proportionality of injunctions)); *see* *Cour de Cassation* (French Court of Cassation) jurisprudence on French patent law infringement standards (illustrating historical fragmentation). These contrasts underscore the **unified approach** now required by Article 34.
+[^28]: *Compare* *Agreement on a Unified Patent Court* art. 34 (UPC applies EPC-based law uniformly), *with* *Bundespatentgericht* (German Patent Court) jurisprudence on national-law infringement standards (*e.g.*, *Schneidrad II*, BVerfG 1 BvR 606/07 (2009) (German constitutional standards on proportionality of injunctions)); *see* *Cour de Cassation* (French Court of Cassation) jurisprudence on French patent law infringement standards (illustrating historical fragmentation). These contrasts underscore the **unified approach** now required by Article 34.  
+[^29]: *See* *Agreement on a Unified Patent Court* arts. 32(1), 83, EPO.org, https://www.epo.org/en/legal/up-upc/2022/upca.html (last visited Mar. 22, 2026) (establishing UPC exclusive jurisdiction for Unitary Patents and opt-out framework for classic European patents during transitional period; threshold eligibility for forum choice).  
+[^30]: *Agreement on a Unified Patent Court* art. 32(1)(a)–(e) (exclusive jurisdiction for UPC infringement and revocation actions over Unitary Patents); *id.* art. 83(1) (national court concurrent jurisdiction during transitional period for non-opted-out classic European patents).  
+[^31]: *Id.* art. 34; *see* Section IV, *supra* (Article 34 applies harmonized EPC-based law uniformly across all UPC member states, displacing national patent law in UPC proceedings; contrast with national court application of domestic Patentgesetz, Code de la propriété intellectuelle, and analogous national regimes).  
+[^32]: *Compare* Patentgesetz (PatG) § 139 (Ger. 2021) (proportionality defense amendment narrowing historically automatic German injunction regime), *and* Code de la propriété intellectuelle arts. L. 615-3, L. 615-7 (Fr.) (provisional measures and astreinte), *with* *Agreement on a Unified Patent Court* art. 63 (UPC proportionality analysis for provisional and permanent injunctions); *see also* Bird & Bird LLP, *Comparison of UPC Local Divisions: Procedural Differences and Best Practices* (2024–2025), https://www.twobirds.com/en/campaigns/upc (last visited Mar. 22, 2026) (division-by-division procedural comparison including Helsinki English-language proceedings).
 
 ---
 
 ## Bibliography (consolidated)
 
 *All sources referenced in footnotes or "Further reading" appear below. Online sources follow Bluebook Rule 18.2.2-style short forms; **last visited** dates reflect the assistant's verification pass—**update** for your publisher. International instruments: cite the official gazette or O.J. if your venue requires T2 precision.*
-
-### A. International instruments & official government / court sources
-
-- *Agreement on a Unified Patent Court*, EPO.org (consolidated text), https://www.epo.org/en/legal/up-upc/2022/upca.html (last visited Mar. 8, 2026).  
-- *Agreement on a Unified Patent Court* art. 83, https://www.epo.org/en/legal/up-upc/2022/upca_83.html (last visited Mar. 8, 2026).  
-- *Agreement on a Unified Patent Court* art. 32, https://www.epo.org/en/legal/up-upc/2022/upca_32.html (last visited Mar. 8, 2026).  
-- *Agreement on a Unified Patent Court* art. 34, https://www.epo.org/en/legal/up-upc/2022/upca_34.html (last visited Mar. 22, 2026) (Article 34 governing applicable law; harmonized EPC-based framework).  
-- *Agreement on a Unified Patent Court* arts. 52–76, https://www.epo.org/en/legal/up-upc/2022/upca.html (last visited Mar. 22, 2026) (cross-reference to EPC Articles defining patentability standards applicable in the UPC).  
-- Eur. Patent Off., *FAQ: What Are the Arrangements for the Transitional Period (Opt-out Scheme and Choice of Forum) for the Unified Patent Court?*, https://www.epo.org/en/service-support/faq/law-practice/unified-patent-court/what-are-arrangements-transitional-period-opt (last visited Mar. 8, 2026).  
-- Eur. Patent Off., *Unitary Patent* (FAQ portal), https://www.epo.org/en/service-support/faq/unitary-patent (last visited Mar. 8, 2026).  
-- Eur. Patent Off., *Unitary Patent Fees*, https://www.epo.org/en/service-support/faq/unitary-patent (navigate to fees; last visited Mar. 22, 2026).  
-- Eur. Patent Off., *Oppositions*, https://www.epo.org/applying/european/oppositions.html (last visited Mar. 8, 2026).  
-- Conv. on the Grant of Eur. Patents art. 99, EPO.org, https://www.epo.org/en/legal/epc/2016/a99.html (last visited Mar. 8, 2026).  
-- Unified Patent Ct., *Annual Report 2024*, https://www.unifiedpatentcourt.org/sites/default/files/upc_documents/UPC_AR_2024_HD_digital_version_double_page2_0.pdf (last visited Mar. 8, 2026).  
-- Unified Patent Ct., *Unified Patent Court Published Its First Annual Report*, https://www.unifiedpatentcourt.org/en/news/unified-patent-court-published-its-first-annual-report (last visited Mar. 8, 2026).  
-- Unified Patent Ct., *Opt-out*, https://www.unifiedpatentcourt.org/en/registry/opt-out (last visited Mar. 8, 2026).  
-- Unified Patent Ct., *Rules of Procedure*, https://www.unifiedpatentcourt.org/en/rules-of-procedure (last visited Mar. 8, 2026).  
-- Unified Patent Ct., *Orders and Decisions* (portal), https://www.unifiedpatentcourt.org/en/news/orders-and-decisions (last visited Mar. 8, 2026).  
-- WIPO, *PCT Applicant's Guide*, vol. II: National Phase Entry, https://www.wipo.int/pct/guide/en/gdvol2/pdf/gdvol2.pdf (last visited Mar. 22, 2026) (authoritative source on 30/31-month timeline, national-phase entry, and fee-deferral mechanics under PCT Articles 22 and 39).
-
-### B. Practitioner commentary, trade press, and blogs (secondary)
-
-- Bird & Bird LLP, *UPC News and Insight*, https://www.twobirds.com/en/campaigns/upc (last visited Mar. 8, 2026).  
-- Bristows LLP, *Unified Patent Court* (topic page), https://www.bristows.com/unified-patent-court/ (last visited Mar. 22, 2026).  
-- D Young & Co LLP, *UPC Opt-out FAQs*, https://www.dyoung.com/en/knowledgebank/faqs-and-guides/faq-upc-opt-out (last visited Mar. 22, 2026).  
-- D Young & Co LLP, *UPC Applicable Law and Infringement Standards*, https://www.dyoung.com/en/knowledgebank (last visited Mar. 22, 2026) (search site for "Article 34" or "applicable law" guidance; **cite individual updates by author and date**).  
-- Finnegan, *UPC Resource Center*, https://www.finnegan.com/en/insights/upc-resource-center.html (last visited Mar. 22, 2026) (includes guides on **applicable law**, **infringement standards**, **economics**; cite individual entries by title and date).  
-- Hogan Lovells, *Publications* (search: unified patent court), https://www.hoganlovells.com/en/publications (last visited Mar. 8, 2026).  
-- IP Fed'n, *A Good Start for the Unified Patent Court*, IP Fed'n Rev., https://review.ipfederation.com/2024/a-good-start-for-the-unified-patent-court/ (last visited Mar. 8, 2026).  
-- JUVE Patent, https://www.juve-patent.com/ (last visited Mar. 22, 2026) (cite individual articles by author, title, and date when used; coverage includes **costs**, **infringement doctrine**, **opt-out trends**).  
-- Konrad Sippel *et al.*, *The UPC and Its Harmonized Approach to Substantive Patent Law*, 56 Int'l Rev. Intell. Prop. & Competition L. 4 (2025), https://link.springer.com/journal/40319 (last visited Mar. 22, 2026) (academic analysis of **Article 34 harmonization** and **early UPC jurisprudence**; cite individual articles by author, title, issue, and page).  
-- Managing IP, *Will a UPC Opt-out Survive the Transitional Period?*, ManagingIP.com, https://www.managingip.com/article/2acrbr9dn1vt88elxnri8/will-a-upc-opt-out-survive-the-transitional-period (last visited Mar. 22, 2026) (overview of post-transition opt-out survival questions and strategic considerations).  
-- Ropes & Gray LLP, *Takeaways from the Inaugural Year of the EU Unified Patent Court*, https://www.ropesgray.com/en/insights/alerts/2024/07/takeaways-from-the-inaugural-year-of-the-eu-unified-patent-court (last visited Mar. 8, 2026).  
-- *The IPKat* (UPC-labeled posts), https://ipkitten.blogspot.com/ (last visited Mar. 22, 2026) (verify date of each post cited).  
-- *UPC Law* (third-party database), https://upc.law/ (last visited Mar. 8, 2026).  
-- Verena Bertram, Julius Zacharias, Philipp Krusemark & Christoph de Coster, *Patents: Case Law of the Unified Patent Court's First Nine Months*, Lexology (Apr. 15, 2024), https://www.lexology.com/library/detail.aspx?g=8200d320-7119-4ad6-8747-93f9f64894ef (last visited Mar. 8, 2026).
-
-### C. Cases and orders (verify neutral cite and official PDF)
-
-- *Revocation Sanofi v. Amgen* (reported EP 3 666 797 revocation, Munich Cent. Div., July 2024)—**cite neutral docket and official UPC PDF after verification**; do not rely on this draft's shorthand alone.  
-- Additional PI/revocation examples discussed in practitioner sources—**cite official orders** linked from UPC registry when used in formal publication.
-
----
-
-**Attorney cite-check checklist (MPL / FCBA):** (1) Replace "last visited" with Perma.cc or publisher archival policy if required. (2) Split *Agreement* cites into O.J. / EUR-Lex form if your outlet requires Table T2.31 precision. (3) Confirm **Article 83** opt-out language against current consolidated text—EPO HTML is convenient but **your** publisher may require **Official Journal** citation. (4) Re-verify **2025–2026** statistics from **primary** court releases before LinkedIn or MPL publication. (5) Confirm new sections (IV.A–C)  fee amounts, 31-month rule, and Article 34 harmonization against latest practitioner guides and primary sources before final proof.
-
-## Merge flags (for the final woven manuscript)
-
-- **§1 (Global prosecution / AI):** EU regulatory and **commercial** context (e.g., product rules affecting documentation) ties to portfolio spend; keep a **single** cross-reference rather than repeating **AI Act** detail here.  
-- **§2 (Comparative AI patents):** EPO **claim and sufficiency** drafting drives UPC claim sets for many families—link, do not re-teach **Guidelines** sections.  
-- **§4 (Trade secrets):** **Patent versus secrecy** choice interacts with **disclosure** in patent files later read in **Munich or Paris**; pointer only.  
-- **§5–§6 (Emerging markets / U.S. landscape):** UPC is **one** forum in a **global** enforcement stack; **ITC** and **district** narratives stay in U.S. chapter.
-
----
-
-## Footnotes (first reference forms; see Bibliography for repeat-cite guidance)
-
-[^1]: *See generally* *Agreement on a Unified Patent Court* pmbl., arts. 3, 31–33, EPO.org, https://www.epo.org/en/legal/up-upc/2022/upca.html (last visited Mar. 8, 2026).  
-[^2]: *Agreement on a Unified Patent Court* art. 32; *see* Eur. Patent Off., *FAQ: What Are the Arrangements for the Transitional Period*, https://www.epo.org/en/service-support/faq/law-practice/unified-patent-court/what-are-arrangements-transitional-period-opt (last visited Mar. 8, 2026).  
-[^3]: *Agreement on a Unified Patent Court* art. 83; *see* Eur. Patent Off., *FAQ: What Are the Arrangements for the Transitional Period*, *id.*  
-[^4]: *See* Unified Patent Ct., *Annual Report 2024*, infra Bibliography A.  
-[^5]: *See* Ropes & Gray LLP, *Takeaways from the Inaugural Year*, infra Bibliography C; Verena Bertram *et al.*, *Patents: Case Law of the Unified Patent Court’s First Nine Months*, infra Bibliography C.  
-[^6]: *See* Eur. Patent Off., *Unitary Patent* portal materials, EPO.org, https://www.epo.org/en/service-support/faq/unitary-patent (last visited Mar. 8, 2026).  
-[^7]: *Agreement on a Unified Patent Court* art. 83(1)–(4).  
-[^8]: *Id.* art. 32; *see also id.* arts. 3, 33.  
-[^9]: *Compare* Eur. Patent Off., *Oppositions*, EPO.org, https://www.epo.org/applying/european/oppositions.html (last visited Mar. 8, 2026), *with* *Agreement on a Unified Patent Court* arts. 65, 67 (verify pin cites to current consolidated text).  
-[^10]: *Agreement on a Unified Patent Court* arts. 7–8, 14–17.  
-[^11]: *Id.* arts. 33, 71; Unified Patent Ct., *Rules of Procedure*, supra Section II Further reading.  
-[^12]: *See* Ropes & Gray LLP, *Takeaways from the Inaugural Year*, infra Bibliography C.  
-[^13]: *Agreement on a Unified Patent Court* art. 83; Unified Patent Ct., *Opt-out*, supra Section I Further reading.  
-[^14]: Unified Patent Ct., *Unified Patent Court Published Its First Annual Report* (Feb. 14, 2025), https://www.unifiedpatentcourt.org/en/news/unified-patent-court-published-its-first-annual-report (last visited Mar. 8, 2026).  
-[^15]: *See, e.g.*, JUVE Patent, commentary on 2025 docket growth (search site for “UPC received” and similar; **verify exact title and date** before publishing), https://www.juve-patent.com/ (last visited Mar. 8, 2026); *The IPKat*, UPC statistics posts (verify each post), https://ipkitten.blogspot.com/ (last visited Mar. 8, 2026).  
-[^16]: Verena Bertram *et al.*, *Patents: Case Law of the Unified Patent Court’s First Nine Months*, supra.  
-[^17]: *Id.*  
-[^18]: *See, e.g.*, discussion of Court of Appeal orders in practitioner summaries; **pull neutral citations from** https://www.unifiedpatentcourt.org/en/news/orders-and-decisions (last visited Mar. 8, 2026) or official order PDFs linked there.  
-[^19]: Verena Bertram *et al.*, *Patents: Case Law of the Unified Patent Court’s First Nine Months*, supra; IP Fed’n, *A Good Start for the Unified Patent Court*, infra Bibliography C.  
-[^20]: *See* topic hubs cited in Section II–III Further reading (verify individual SEP-related alerts).  
-[^21]: *See, e.g.*, Lexology practitioner summaries (search “Amgen” “UPC” “3666797”; **confirm author, firm, and date** for each piece before citing)—treat as secondary reporting on *Revocation Sanofi v. Amgen*, UPC Mun. Cent. Div., July 2024 (neutral cite and official PDF **must be verified** from UPC registry materials).  
-[^24]: *See generally* Unified Patent Ct., *Annual Report 2024*, supra (judicial quality and consistency themes).  
-[^25]: *See* Eur. Patent Off., *Unitary Patent Fees* (last visited Mar. 22, 2026); *Agreement on a Unified Patent Court* art. 8 (UP registration mechanics).  
-[^26]: *See* WIPO, *PCT Applicant's Guide* vol. II (National Phase), supra (30/31-month timeline and fee-deferral mechanics).  
-[^27]: *See* *Agreement on a Unified Patent Court* art. 34 (establishing applicable law framework); *Agreement on a Unified Patent Court* arts. 52–76 (cross-reference to EPC patentability standards); *see also* Konrad Sippel *et al.*, *The UPC and Its Harmonized Approach to Substantive Patent Law*, 56 Int'l Rev. Intell. Prop. & Competition L. 4 (2025) (academic analysis of early UPC jurisprudence on harmonized law).  
-[^28]: *Compare* *Agreement on a Unified Patent Court* art. 34 (UPC applies EPC-based law uniformly), *with* *Bundespatentgericht* (German Patent Court) jurisprudenceon national-law infringement standards (*e.g.*, *Schneidrad II*, BVerfG 1 BvR 606/07 (2009) (German constitutional standards on proportionality of injunctions)); *see* *Cour de Cassation* (French Court of Cassation) jurisprudence on French patent law infringement standards (illustrating historical fragmentation). These contrasts underscore the **unified approach** now required by Article 34.
-[^23]: *See* Managing IP, *Will a UPC Opt-out Survive the Transitional Period?*, supra Section IV Further reading; D Young & Co LLP, *UPC Opt-out FAQs*, supra Section IV Further reading.  
-[^24]: *See generally* Unified Patent Ct., *Annual Report 2024*, supra (judicial quality and consistency themes).
-
----
-
-## Bibliography (consolidated)
-
-*All sources referenced in footnotes or “Further reading” appear below. Online sources follow Bluebook Rule 18.2.2-style short forms; **last visited** dates reflect the assistant’s verification pass—**update** for your publisher. International instruments: cite the official gazette or O.J. if your venue requires T2 precision.*
 
 ### A. International instruments & official government / court sources
 
@@ -481,8 +670,9 @@ A question frequently asked by U.S. patent counsel confronting the UPC for the f
 ### C. Cases and orders (verify neutral cite and official PDF)
 
 - *Revocation Sanofi v. Amgen* (reported EP 3 666 797 revocation, Munich Cent. Div., July 2024)—**cite neutral docket and official UPC PDF after verification**; do not rely on this draft’s shorthand alone.  
-- Additional PI/revocation examples discussed in Taylor Wessing Lexology piece—**cite official orders** linked from UPC site when used in formal publication.
+- Additional PI/revocation examples discussed in practitioner sources—**cite official orders** linked from UPC site when used in formal publication.
 
 ---
 
-**Attorney cite-check checklist (MPL / FCBA):** (1) Replace “last visited” with Perma.cc or publisher archival policy if required. (2) Split *Agreement* cites into O.J. / EUR-Lex form if your outlet requires Table T2.31 precision. (3) Confirm **Article 83** opt-out language against current consolidated text—EPO HTML is convenient but **your** publisher may require **Official Journal** citation. (4) Re-verify **2025–2026** statistics from **primary** court releases before LinkedIn or MPL publication.
+**Attorney cite-check checklist (MPL / FCBA):** (1) Replace "last visited" with Perma.cc or publisher archival policy if required. (2) Split *Agreement* cites into O.J. / EUR-Lex form if your outlet requires Table T2.31 precision. (3) Confirm **Article 83** opt-out language against current consolidated text—EPO HTML is convenient but **your** publisher may require **Official Journal** citation. (4) Re-verify **2025–2026** statistics from **primary** court releases before LinkedIn or MPL publication. (5) Confirm new sections (IV.A–C)  fee amounts, 31-month rule, and Article 34 harmonization against latest practitioner guides and primary sources before final proof.
+
